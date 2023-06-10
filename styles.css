@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* HEADER starts from here */
+
+.hero-section {
+    background-color: #1F2937;
+    height: 600px;
+    padding: 25px 300px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-links {
+    padding: 0;
+    flex: 1;
+    display: flex;
+}
+
+.header-links li {
+    flex: 1;
+    list-style: none;
+    text-align: right;
+}
+
+.header-links li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main {
+    display: flex;
+    margin-top: 150px;
+    gap: 50px;
+}
+
+.content {
+    flex: 1;
+}
+
+.content .title {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.content .text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.content .sign-up-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image-placeholder {
+    flex: 1;
+    color: white;
+    background-color: #97989c;
+}
