@@ -151,3 +151,52 @@ body {
 }
 
 /* QUOTE-SECTION ends from here */
+
+/* BOTTOM-SECTION starts from here */
+
+.bottom-section {
+    height: 300px;
+    padding: 80px 300px;
+    color: #E5E7EB;
+}
+
+.bottom-section .container {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-section .container .content {
+    flex: 3;
+}
+
+.bottom-section .container .content .title {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.bottom-section .container .sign-up-button {
+    color: #E5E7EB;
+    font-weight: 900;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+}
+
+/* BOTTOM-SECTION ends from here */
+
+/* FOOTER starts from here */
+
+.footer {
+    background-color: #1F2937;
+    padding: 50px 50px;
+    color: #E5E7EB;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* FOOTER ends from here */
