@@ -15,70 +15,139 @@ body {
     padding: 25px 300px;
 }
 
-.header {
+.hero-section .header {
     display: flex;
     align-items: center;
 }
 
-.header-logo {
+.hero-section .header .header-logo {
     flex: 1;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.header-links {
+.hero-section .header .header-links {
     padding: 0;
     flex: 1;
     display: flex;
 }
 
-.header-links li {
+.hero-section .header .header-links li {
     flex: 1;
     list-style: none;
     text-align: right;
 }
 
-.header-links li a {
+.hero-section .header .header-links li a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.main {
+.hero-section .main {
     display: flex;
     margin-top: 150px;
     gap: 50px;
 }
 
-.content {
+.hero-section .main .content {
     flex: 1;
 }
 
-.content .title {
+.hero-section .main .content .title {
     font-size: 48px;
     font-weight: 1000;
     color: #F9FAF8;
     margin-bottom: 10px;
 }
 
-.content .text {
+.hero-section .main .content .text {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 10px;
 }
 
-.content .sign-up-button {
+.hero-section .main .content .sign-up-button {
     background-color: #3882F6;
     color: #E5E7EB;
+    font-weight: 900;
     width: 150px;
     text-align: center;
     padding: 10px;
     border-radius: 10px;
 }
 
-.image-placeholder {
+.hero-section .main .image-placeholder {
     flex: 1;
     color: white;
     background-color: #97989c;
 }
+
+/* HEADER ends from here */
+
+/* MIDDLE-SECTION starts from here */
+
+.middle-section {
+    padding: 40px 450px;
+    height: 500px;
+}
+
+.middle-section .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.middle-section .items-container {
+    display: flex;
+    gap: 60px;
+}
+
+.middle-section .items-container .item {
+    flex: 1;
+}
+
+.middle-section .items-container .item .image-placeholder {
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.middle-section .items-container .item .subtext {
+    text-align: center;
+}
+
+/* MIDDLE-SECTION ends from here */
+
+/* QUOTE-SECTION starts from here */
+
+.quote-section {
+    padding: 100px 450px;
+    height: 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote-section .text {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.quote-section .author {
+    text-align: right;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+/* QUOTE-SECTION ends from here */
